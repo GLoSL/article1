@@ -1,0 +1,34 @@
+
+/*body {
+  width:100%;
+}*/
+
+
+img {
+  float: left;
+  margin: 2px;
+  padding: 0;
+}
+
+button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+article {
+  position: relative;
+  border: 1px dotted black;
+  background-color: rgb(55, 120, 150);
+  float: left;
+  width: calc(50vw - 20px);
+}
+
+.suite {
+  text-align: center;
+  max-width: 100%;
+}
+
+.suite:hover {
+  transform: scale(2);
+}
