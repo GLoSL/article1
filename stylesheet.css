@@ -1,7 +1,8 @@
 
-/*body {
+body {
   width:100%;
-}*/
+  background-color: yellow;
+}
 
 
 img {
@@ -21,12 +22,16 @@ article {
   border: 1px dotted black;
   background-color: rgb(55, 120, 150);
   float: left;
-  width: calc(50vw - 20px);
+  width: calc(50% - 20px);
+  overflow-x: hidden;
 }
 
 .suite {
-  text-align: center;
-  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 2s, color 2s;
+  color: rgb(200, 200, 0);
 }
 
 .suite:hover {
